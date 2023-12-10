@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="homepage.css">
+    <script>
+        function change(id){
+        let sample=document.getElementById(id)
+        sample.style.backgroundColor="rgb(250, 234, 230";
+        sample.style.border="2px solid rgb(0, 255, 76)";
+        }
+    </script>
+</head>
+<body>
+    <header>
+       <div> <h1>Pharmacy</h1></div>  
+    </header>
+        <section id="navigate">
+            <nav>
+            <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">Our Medicines</a>
+                    <ul>
+                        <li><a href="">Fever</a></li>
+                        <li><a href="">Muscle Pains</a></li>
+                        <li><a href="">Cold & Cough</a></li>
+                        </ul>
+                </li>
+                <li><a  href="">Health Care</a>
+                    <ul>
+                        <li><a href="">Care</a></li>
+                        <li><a href="">Skin Care</a></li>
+                        <li><a href="">Home Care</a></li>
+                        <li><a href="">Personal Care</a></li>
+                        <li><a href="">Pet Care</a></li>
+                    </ul>
+                </li>
+                <li><a href="LabTest.html" target="_blank">Lab Test</a></li>
+            </ul>
+            </nav>
+        </section>   
+    
+        <div class="slide-show">    
+            <img src="Images\Animation\ani1.jpg">
+            <img src="Images\Animation\ani2.png">
+            <img src="Images\Animation\ani3.jpg">
+            <img src="Images\Animation\ani4.jpg">
+            <img src="Images\Animation\ani5.jpg">
+       </div>
+
+    <div class="care">
+        <h2>Covid Care</h2>
+            <div id="c1">
+                <b>Covid Text Kit</b><br>
+                <img class="image" src="Images\Products\c1.jpg" alt="Covid Text Kit"><br>
+                <span>Rs.49</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('c1')"><b>Add to Cart</b></button>
+            </div>      
+            <div id="c2">
+                <b>Covid Essential</b><br>
+                <img class="image" src="Images\Products\c2.jpg" alt="Covid Essential"><br>
+                <span>Rs.240</span><br>
+                <span>Offer Rs.170</span><br>
+                <button onclick="change('c2')"><b>Add to Cart</b></button>
+            </div>  
+            <div id="c3">
+                <b>Sanitizer Bottle</b> <br>
+                <img class="image" src="Images\Products\c3.jpg" alt="Sanitizer Bottle"><br>
+                <span>Rs.99</span><br>
+                <span>Offer Rs.87</span><br>
+                <button onclick="change('c3')"><b>Add to Cart</b></button>
+            </div>  
+            <div id="c4">
+                <b>Mask</b> <br>
+                <img class="image" src="Images\Products\c4.jpg" alt="Mask"><br>
+                <span>Rs.45</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('c4')"><b>Add to Cart</b></button>
+            </div>   
+    </div> 
+<br>
+<br>
+    <div class="Diabet">
+       <h2>Diabets Care</h2>
+            <div id="d1">
+                <b>8GR34</b><br>
+                <img class="image" src="Images\Products\d1.jpg" alt="8GR34"><br>
+                <span>Rs.45</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('d1')"><b>Add to Cart</b></button>
+            </div>
+            <div id="d2"> 
+                <b>Dabar Chyawanprakash</b> <br>
+                <img class="image" src="Images\Products\d2.jpg" alt="Dabar Chyawanprakash"><br>
+                <span>Rs.45</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('d2')"><b>Add to Cart</b></button>
+            </div>
+            <div id="d3">
+                <b>Colgate Sugar Free</b> <br>
+                <img class="image" src="Images\Products\d3.jpg" alt="Colgate Sugar Free"><br>
+                <span>Rs.45</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('d3')"><b>Add to Cart</b></button>
+                </div>
+            <div id="d4">
+                <b>Unibic Cookies Sugar Free </b> <br>
+                <img class="image" src="Images\Products\d4.png" alt="Unibic Cookies Sugar Free "><br>
+                <span>Rs.35</span><br>
+                <span>Offer Rs.30</span><br>
+                <button onclick="change('d4')"><b>Add to Cart</b></button>
+            </div>
+    </div>
+ <br>
+ <br>
+    <footer>
+        <h4> &copy copyright. Only for demonstration purposes</h4>
+    </footer>
+</body>
+</html>
