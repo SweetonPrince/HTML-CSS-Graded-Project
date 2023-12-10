@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Test</title>
+    <link rel="stylesheet" href="LabTest.css">
+</head>
+<body>
+    <div class="grid">
+        <div>
+            <img class="image" src="Images\Lab-Test\lab-test.jpg">
+    
+        <section class="box">
+            <h1>1.Your Contact Details</h1><br>
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Patient Id if exists">
+            <input type="text" placeholder="Contact Number">
+            <input type="text" placeholder="Email id">
+        </section>
+
+        <section class="box">
+            <h1>2.Address</h1><br>
+            <input type="text" placeholder="House no">
+            <input type="text" placeholder="Street">
+            <input type="text" placeholder="Area"><br>
+            <b>District</b><br>
+            <select> 
+            <option>Chosen</option>
+            <option>Kanyakumari</option> 
+            <option>Chennai</option>     
+            <option>Madurai</option>      
+            </select> 
+        </section>
+
+        <section>
+            <h1>3.Choose the Test Type</h1>
+            <p>(Check at least one box without fail)</p>
+                    <input type="checkbox" id="CBC" name="Test"/> 
+                    <label for="CBC"> CBC</label><br /> 
+                    <input type="checkbox" id="Complete Urine" name="Test"/> 
+                    <label for="Complete Urine"> Complete Urine</label><br /> 
+                    <input type="checkbox" id="Lipid" name="Test"/> 
+                    <label for="Lipid">Lipid Profile</label><br />
+                    <input type="checkbox" id="Thyroid" name="Test"/> 
+                    <label for="Thyroid"> Thyroid Stimulating Hormone (TSH)</label><br />
+                    <input type="checkbox" id="Glucose" name="Test"/> 
+                    <label for="Glucose"> Glucose Test</label><br />
+        </section>
+
+        <section>
+            <h1>4.Do you want a hard copy of the report also?</h1>
+            <input type="radio" id="yes" name="report">
+            <label for="yes">&nbsp; &nbsp; &nbsp;Yes</label>
+            <input type="radio" id="no" name="report">
+            <label for="no">&nbsp; &nbsp; &nbsp;No</label>
+        </section>
+
+        <section>
+            <h1>5.Select Your Comfortable Date and Time</h1>
+            <input type="date"><br>
+            <input type="time"><br>
+        </section>
+        </div>
+            <input class="final" type="reset" placeholder="Reset">
+            <input class="final" type="submit" placeholder="Submit">
+    </div>
+</body>
+</html>
